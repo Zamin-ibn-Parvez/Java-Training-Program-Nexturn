@@ -1,4 +1,4 @@
-package Strings;
+package Day1.Strings;
 
 public class String {
     public static void main(java.lang.String[] args) {
