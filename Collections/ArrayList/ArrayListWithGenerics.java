@@ -1,4 +1,6 @@
-package Day6.Collections;
+package Collections.ArrayList;
+
+import Collections.Question.Employee;
 
 import java.util.ArrayList;
 import java.util.Scanner;

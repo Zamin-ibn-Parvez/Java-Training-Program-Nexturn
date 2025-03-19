@@ -1,18 +1,22 @@
-package Day6.Collections;
+package Collections.Question;
 
-public class Employee {
+import org.jetbrains.annotations.NotNull;
+
+import java.util.Comparator;
+
+public class Employee implements Comparable<Employee> {
     private int code;
     private String name;
     private double salary;
 
 
-    public Employee() {
-    }
-
     public Employee(int code, String name, double salary) {
         this.code = code;
         this.name = name;
         this.salary = salary;
+    }
+
+    public Employee() {
     }
 
     public int getCode() {
@@ -38,4 +42,17 @@ public class Employee {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
+    @Override
+    public int compareTo(@NotNull Employee emp) {
+        int diff = this.code - emp.getCode();
+        return diff;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
 }
+

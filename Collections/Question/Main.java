@@ -1,6 +1,6 @@
-package Day6.Collections.Question;
+package Collections.Question;
 
-import Day6.Collections.Employee;
+import Collections.ArrayList.EmployeeOperations;
 
 import java.util.Scanner;
 
@@ -13,7 +13,8 @@ public class Main {
         while (true) {
             System.out.println("1. Create Employee");
             System.out.println("2. Search Employee");
-            System.out.println("3. Exit");
+            System.out.println("3. Display Employee");
+            System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
             int choice = sc.nextInt();
 
@@ -39,6 +40,9 @@ public class Main {
                     }
                     break;
                 case 3:
+                    empOps.displayEmployees();
+                    break;
+                case 4:
                     System.out.println("Exiting...");
                     return;
                 default:

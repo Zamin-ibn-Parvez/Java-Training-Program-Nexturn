@@ -1,6 +1,4 @@
-package Day6.Collections;
-
-import com.sun.jdi.IntegerType;
+package Collections.ArrayList;
 
 import java.util.ArrayList;
 import java.util.ListIterator;
