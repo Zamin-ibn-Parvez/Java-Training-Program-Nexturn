@@ -25,7 +25,7 @@ public class PhoneDiary {
             phoneDiary.put(5555555555L, "Bob Smith");
 
             PhoneDiary pd = new PhoneDiary();
-            ArrayList<Long> list = pd.getList(phoneDiary, "Carmine");
+            ArrayList<Long> list = pd.getList(phoneDiary, "John Doe");
             System.out.println(list);
 
         }
