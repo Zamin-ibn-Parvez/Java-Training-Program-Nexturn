@@ -12,9 +12,9 @@ public class DateExample2 {
         String datestr = "20-03-2025";
         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
         Date dob = sdf.parse(datestr);
-        System.out.println("dob :"+dob);
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
         LocalDate localDate = LocalDate.parse(datestr, formatter);
+        System.out.println("dob :"+dob);
         System.out.println(localDate);
         System.out.println(LocalDate.now());
     }

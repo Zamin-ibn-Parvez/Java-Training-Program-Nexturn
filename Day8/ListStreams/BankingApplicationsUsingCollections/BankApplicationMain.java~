@@ -71,7 +71,8 @@ public class BankApplicationMain {
                     System.out.println("Enter the account number for which you need to view the statement :");
                     long accountNumberStatement = sc.nextLong();
                     try {
-                        transaction.viewStatement(accountNumberStatement);
+                        List<Account> statement = transaction.viewStatement(accountNumberStatement);
+                        System.out.println("The statement for Account No. " + accountNumberStatement + " is :" + statement);
                     } catch (AccountNotFoundException e) {
                         System.out.println("Account not found");
                     }

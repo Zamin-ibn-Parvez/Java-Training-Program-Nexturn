@@ -1,9 +1,13 @@
 package Day8.ListStreams.BankingApplicationsUsingCollections;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Account {
     private long accNumber;
     private String customerName;
     private double balance;
+
 
     public Account(long accNumber, String customerName, double balance) {
         this.accNumber = accNumber;
@@ -39,6 +43,19 @@ public class Account {
     public String toString() {
         return "Employee Details --> Account Number : " + getAccNumber() + ", Customer Name : " + getCustomerName() + ", Balance :" + getBalance();
     }
+
+    static List<Transaction> transactions = new ArrayList<>();
+
+    public void addTransaction(Transaction transaction) {
+        transactions.add(transaction);
+    }
+
+    public List<Transaction> getTransactions() {
+        return transactions;
+    }
+
+
+
 }
 
 
