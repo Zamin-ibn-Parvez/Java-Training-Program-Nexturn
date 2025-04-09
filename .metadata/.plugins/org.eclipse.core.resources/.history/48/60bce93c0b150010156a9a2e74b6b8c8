@@ -1,0 +1,83 @@
+<dependencies>
+		<!-- JPA API -->
+		<dependency>
+			<groupId>javax.persistence</groupId>
+			<artifactId>javax.persistence-api</artifactId>
+			<version>2.2</version>
+		</dependency>
+
+		<!-- Hibernate Entity Manager -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.6.5.Final</version>
+		</dependency>
+
+		<!-- Hibernate JPA API -->
+		<dependency>
+			<groupId>org.hibernate.javax.persistence</groupId>
+			<artifactId>hibernate-jpa-2.1-api</artifactId>
+			<version>1.0.2.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.28</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	
+	
+	
+	<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+                        http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
+	version="2.2">
+
+	<persistence-unit name="myPersistenceUnit"
+		transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		<class>jpahbn.Product</class> <!-- Specify your entity classes here -->
+
+		<properties>
+			<!-- Database connection settings -->
+			<property name="javax.persistence.jdbc.driver"
+				value="com.mysql.cj.jdbc.Driver" />
+			<property name="javax.persistence.jdbc.url"
+				value="jdbc:mysql://localhost:3306/nexturn" />
+			<property name="javax.persistence.jdbc.user"
+				value="root" />
+			<property name="javax.persistence.jdbc.password"
+				value="Database@25" />
+
+			<!-- Hibernate properties -->
+			<property name="hibernate.dialect"
+				value="org.hibernate.dialect.MySQL8Dialect" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+			<property name="hibernate.show_sql" value="true" />
+		</properties>
+	</persistence-unit>
+
+</persistence>
+	
+	
+	
+
+
+
+
+
+
+

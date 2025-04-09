@@ -1,0 +1,39 @@
+package sample;
+
+import java.net.spi.InetAddressResolver;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+
+
+public class Customer {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private int code;
+	@Column(length = 50)
+	private String custname;
+	public int getCode() {
+		return code;
+	}
+	
+	
+	public void setCode(int code) {
+		this.code = code;
+	}
+	public String getCustname() {
+		return custname;
+	}
+	public void setCustname(String custname) {
+		this.custname = custname;
+	}
+	
+	
+	
+	
+	
+
+}

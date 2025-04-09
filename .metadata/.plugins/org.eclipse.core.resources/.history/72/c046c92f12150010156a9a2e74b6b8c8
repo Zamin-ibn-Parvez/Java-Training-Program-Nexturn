@@ -1,0 +1,55 @@
+package many2many;
+
+import java.io.Serial;
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+public class Many2ManyApplication {
+	
+	public static void main(String[] args) {
+		EntityManagerFactory factory = Persistence.createEntityManagerFactory("nexturn_pu");
+		EntityManager manager = factory.createEntityManager();
+		EntityTransaction transaction = manager.getTransaction();
+		
+		Bank bank1 = new Bank();
+		bank1.setName("SBI");
+		bank1.setBranchName("Banglore");
+		bank1.setSwiftCode("SBI5678");
+		
+		Bank bank2 = new Bank();
+		bank2.setName("SBI");
+		bank2.setBranchName("Hyderabad");
+		bank2.setSwiftCode("SBI4560");
+		
+		Set<Bank> banks = new HashSet<Bank>();
+		banks.add(bank1);
+		banks.add(bank2);
+		
+		
+		Customer c1 = new Customer();
+		c1.setName("cts");
+		c1.setMobile(9883399399L);
+		
+		Customer c2 = new Customer();
+		c2.setName("Zain");
+		c2.setMobile(1234567890L);
+		
+		Customer c3 = new Customer();
+		c3.setName("Zod");
+		c3.setMobile(9883839202L);
+		
+		Set<Customer> customerSet = new HashSet<Customer>();
+		customerSet.add(c1);
+		customerSet.add(c2);
+		customerSet.add(c3);
+		
+		bank1.setCustomers(customerSet);
+		
+	}
+
+}

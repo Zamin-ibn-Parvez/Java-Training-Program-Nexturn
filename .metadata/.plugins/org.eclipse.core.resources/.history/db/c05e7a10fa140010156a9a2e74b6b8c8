@@ -1,0 +1,37 @@
+package sample;
+
+import java.beans.PersistenceDelegate;
+
+import javax.persistence.Entity;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+import javax.persistence.metamodel.ManagedType;
+
+
+public class StudentApplication {
+
+	public static void main(String[] args) {
+		EntityManagerFactory factory = Persistence.createEntityManagerFactory("nexturn_pu");
+		EntityManager manager = factory.createEntityManager();
+		EntityTransaction trans = manager.getTransaction();
+		
+		
+		Student std = new Student();
+		std.setRegNo(1003);
+		std.setStdName("Zain");
+		std.setTotal(600);
+		std.setDOB("2004-08-21");
+		
+		trans.begin();
+		manager.persist(std);
+		trans.commit();
+		
+		manager.close();
+		
+		
+
+	}
+
+}

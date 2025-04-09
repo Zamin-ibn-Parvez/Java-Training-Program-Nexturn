@@ -1,0 +1,5 @@
+package many2many;
+
+public class Many2ManyApplication {
+
+}

@@ -1,0 +1,52 @@
+package JPAQLExamples;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.Query;
+import javax.persistence.metamodel.ManagedType;
+
+import sample.Student;
+
+public class JPAQLExamples {
+	
+	public static void main(String[] args) {
+		
+		EntityManagerFactory factory = Persistence.createEntityManagerFactory("nexturn_pu");
+		EntityManager manager = factory.createEntityManager();
+		
+		Query qry1 = manager.createQuery("select std from Student std where std.total > ?1");
+		qry1.setParameter(1, 500);
+		List<Student> stdList1 = qry1.getResultList();
+		
+		stdList1.forEach(s -> System.out.println(s.getTotal()));
+		
+		Query qry2 = manager.createQuery("select std from Student std where std.total between :v1 and :v2");
+		qry2.setParameter("v1" , 500);
+		qry2.setParameter("v2" , 700);
+		
+		List<Student> stdList2 = qry1.getResultList();
+		
+		stdList1.forEach(s -> System.out.println(s.getTotal()));
+		
+		Query qry3 = manager.createQuery("select std from Stundent std where std.name like ?1");
+		
+		qry3.setParameter(1, "%a%");
+		List<Student> stdList3 = qry1.getResultList();
+		
+		stdList3.forEach(s -> System.out.println(s.getTotal()));
+		
+		//Native SQL
+		
+		Query nativeSql = manager.createNamedQuery("select * from student" , Student.class);
+		
+		List<Student> nativeList = nativeSql.getResultList();
+		nativeList.forEach((s)-> System.out.println(s));
+		
+		
+		
+	}
+
+}

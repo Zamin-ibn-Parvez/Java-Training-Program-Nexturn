@@ -1,0 +1,62 @@
+package One2Many;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
+
+@Entity
+public class Vehicle {
+	
+	@Id 
+	private String regNo;
+	@Column(length = 40)
+	private String type;
+	@Column(length = 15)
+	private String brand;
+	
+	@ManyToMany
+	@JoinColumn(name = "empcode")
+	private Employee employee;
+
+	public String getRegNo() {
+		return regNo;
+	}
+
+	public void setRegNo(String regNo) {
+		this.regNo = regNo;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public String getBrand() {
+		return brand;
+	}
+
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+
+	public Employee getEmployee() {
+		return employee;
+	}
+
+	public void setEmployee(Employee employee) {
+		this.employee = employee;
+	}
+	
+	
+	
+	
+	
+	
+
+}

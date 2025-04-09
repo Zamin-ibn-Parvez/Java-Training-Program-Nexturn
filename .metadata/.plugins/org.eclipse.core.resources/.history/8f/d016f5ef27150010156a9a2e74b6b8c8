@@ -1,0 +1,23 @@
+package Testing;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+public class TestArithematic {
+	
+	Arithematic arth = new Arithematic();
+	
+	@Test
+	void testAdd() {
+		assertEquals(11, arth.add(6, 5));
+	}
+	
+	@Test
+	void testMultiply() {
+		assertEquals(39, arth.multiply(5, 6));
+	}
+	
+	
+
+}

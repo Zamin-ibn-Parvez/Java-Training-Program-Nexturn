@@ -1,0 +1,32 @@
+package One2Many;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+public class GetDataOfVehicles {
+	
+	public static void main(String[] args) {
+		EntityManagerFactory factory = Persistence.createEntityManagerFactory("nexturn_pu");
+		EntityManager manager = factory.createEntityManager();
+		
+//		Employee employee = manager.find(Employee.class, 1001);
+//		System.out.println(employee.getEmpcode()+ " " +employee.getEmpname());
+//		
+//		List<Vehicle> list = employee.getVehicles();
+//		
+//		for(Vehicle v: list ) {
+//			System.out.println(v);
+//		}
+		
+		
+		Vehicle vehicle = manager.find(Vehicle.class, "UP65C 7889 ");
+		
+		System.out.println(vehicle.getEmployee().getEmpname());
+		
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package sample;
+
+import java.beans.PersistenceDelegate;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+import javax.persistence.metamodel.ManagedType;
+
+public class UpdateAndDelete {
+	
+	public static void main (String [] args) {
+		EntityManagerFactory factory = Persistence.createEntityManagerFactory("nexturn_pu");
+		EntityManager manager = factory.createEntityManager();
+		EntityTransaction tran = manager.getTransaction();
+		
+		Student std = manager.find(Student.class, 1001);
+		
+		std.setTotal(960);
+		std.setStdName("James Gosling");
+		tran.begin();
+//		manager.persist(std);
+		manager.remove(std);
+		tran.commit();
+		manager.close();
+		
+	}
+
+}

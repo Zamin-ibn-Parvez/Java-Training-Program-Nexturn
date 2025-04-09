@@ -1,0 +1,64 @@
+package One2Many;
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+
+
+public class One2ManyApplication {
+
+	public static void main(String[] args) {
+		
+		EntityManagerFactory factory = Persistence.createEntityManagerFactory("nexturn_pu");
+		EntityManager manager = factory.createEntityManager();
+		EntityTransaction transaction = manager.getTransaction();
+		
+		Employee employee = new Employee();
+		
+		employee.setEmpcode(1002);
+		employee.setEmpname("Abhishek");
+		
+		List<Vehicle> vehicleList = new ArrayList<Vehicle>();
+		
+		Vehicle vehicle1 = new Vehicle();
+		
+		vehicle1.setRegNo("UP65C 7889");
+		vehicle1.setType("2-wheeler");
+		vehicle1.setBrand("Ducatti");
+		
+		vehicle1.setEmployee(employee);
+		
+		Vehicle vehicle2 = new Vehicle();
+		
+		vehicle2.setRegNo("UPSW 8766");
+		vehicle2.setType("4-wheeler");
+		vehicle2.setBrand("Rolls Royce");
+		
+		vehicle2.setEmployee(employee);
+		
+		vehicleList.add(vehicle1);
+		vehicleList.add(vehicle2);
+		
+		employee.setVehicles(vehicleList);
+		
+		transaction.begin();
+		
+		manager.persist(employee);
+		
+		
+		transaction.commit();
+		
+		manager.close();
+		
+		
+		
+
+	}
+
+}

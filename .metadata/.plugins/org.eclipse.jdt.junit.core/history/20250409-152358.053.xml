@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestArithematic" project="JUNIT" tests="2" started="2" failures="1" errors="0" ignored="0">
+  <testsuite name="Testing.TestArithematic" time="0.058" displayname="TestArithematic" uniqueid="[engine:junit-jupiter]/[class:Testing.TestArithematic]">
+    <testcase name="testAdd" classname="Testing.TestArithematic" time="0.056" displayname="testAdd()" uniqueid="[engine:junit-jupiter]/[class:Testing.TestArithematic]/[method:testAdd()]">
+      <failure>
+        <expected>10</expected>
+        <actual>11</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;10&gt; but was: &lt;11&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)&#13;
+	at Testing.TestArithematic.testAdd(TestArithematic.java:13)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testMultiply" classname="Testing.TestArithematic" time="0.001" displayname="testMultiply()" uniqueid="[engine:junit-jupiter]/[class:Testing.TestArithematic]/[method:testMultiply()]"/>
+  </testsuite>
+</testrun>
