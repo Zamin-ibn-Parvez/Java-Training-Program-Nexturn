@@ -1,0 +1,71 @@
+package Day2.Inheritance.Example2;
+
+import Day2.Inheritance.Example1.Student;
+
+import javax.crypto.ExemptionMechanism;
+
+public class Examination extends Student {
+    protected int sub1;
+    protected int sub2;
+    protected int sub3;
+
+    public Examination(int regNo, String stdName, String group, int sub1, int sub2, int sub3) {
+        super(regNo, stdName, group);
+        this.sub1 = sub1;
+        this.sub2 = sub2;
+        this.sub3 = sub3;
+    }
+
+    public Examination(int sub1, int sub2, int sub3) {
+        this.sub1 = sub1;
+        this.sub2 = sub2;
+        this.sub3 = sub3;
+    }
+
+    public Examination(){}
+
+
+
+
+    public void displayTotalMarks(){
+        System.out.println("The total marks are :" + getTotalMarks());
+    }
+
+    public void displayAverageMarks(){
+        System.out.println("The average marks are :" + average());
+    }
+
+
+
+
+    public int getTotalMarks() {
+        return sub1+sub2+sub3;
+    }
+    public int average(){
+        int totalMarks = getTotalMarks();
+        return totalMarks/3;
+    }
+
+    public void displayResult(){
+        if(sub1>40 && sub2>40 && sub3>40){
+            int average = average();
+            if(average>50){
+                System.out.println("The result is pass");
+            }
+            else{
+                System.out.println("THe result is fail");
+            }
+        }
+        else{
+            System.out.println("The result is fail");
+        }
+    }
+
+    public static void main(String[] args) {
+        Examination examination = new Examination(65, 67,46);
+        examination.displayTotalMarks();
+        examination.displayAverageMarks();
+        examination.displayResult();
+    }
+
+}
