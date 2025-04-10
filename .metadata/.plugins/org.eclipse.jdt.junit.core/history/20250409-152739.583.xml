@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="TestArithematic" project="JUNIT" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="Testing.TestArithematic" time="0.046" displayname="TestArithematic" uniqueid="[engine:junit-jupiter]/[class:Testing.TestArithematic]">
-    <testcase name="testAdd" classname="Testing.TestArithematic" time="0.042" displayname="testAdd()" uniqueid="[engine:junit-jupiter]/[class:Testing.TestArithematic]/[method:testAdd()]"/>
-    <testcase name="testMultiply" classname="Testing.TestArithematic" time="0.002" displayname="testMultiply()" uniqueid="[engine:junit-jupiter]/[class:Testing.TestArithematic]/[method:testMultiply()]"/>
-  </testsuite>
-</testrun>

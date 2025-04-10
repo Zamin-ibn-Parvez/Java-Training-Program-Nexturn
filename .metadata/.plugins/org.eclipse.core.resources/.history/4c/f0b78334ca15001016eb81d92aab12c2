@@ -1,0 +1,54 @@
+package com.nexturn.employee.testing;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.nexturn.employee.beans.Employee;
+import com.nexturn.employee.dao.EmployeeDao;
+import com.nexturn.employee.dao.EmployeeDaoImpl;
+
+class TestEmployeeDao {
+	
+	EmployeeDao dao = new EmployeeDaoImpl();
+	
+	
+
+	@Test
+	void testAddEmployee() {
+		Employee employee = new Employee();
+		employee.setEmpno(103);
+		employee.setEmpname("Nexturn");
+		employee.setSalary(6000);
+		employee.setJob("SDE");
+		employee.setDoj("10-04-2025");
+		assertEquals(1, dao.addEmployee(employee));
+	}
+	
+	@Test
+	void testUpdateEmployee() {
+		Employee emp2 = new Employee();
+		emp2.setEmpno(102);
+		emp2.setEmpname("Zain");
+		emp2.setJob("Java Developer");
+		emp2.setSalary(45000);
+		emp2.setDoj("10-04-2025");
+		assertEquals(1, dao.updateEmployee(emp2));
+		
+	}
+	
+	
+	@Test
+	void testGetEmployeeById() {
+		 int empno = 1012; 
+		 
+		 Employee emp = dao.getEmployeeById(empno);
+		 
+		 
+	     assertNotNull(emp);
+	     assertEquals("Nexturn", emp.getEmpname());
+		
+	}
+	
+
+}

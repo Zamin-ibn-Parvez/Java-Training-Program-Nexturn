@@ -1,0 +1,20 @@
+package com.nexturn.employee.testing;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.nexturn.employee.beans.Employee;
+
+class TestEmployeeDao {
+	
+	Employee dao = new Employee();
+	
+	
+
+	@Test
+	void testAddEmployee() {
+		Employee employee = new Employee();
+	}
+
+}

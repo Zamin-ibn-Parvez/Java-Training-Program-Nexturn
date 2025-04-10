@@ -1,0 +1,70 @@
+package core;
+
+import java.sql.ResultSet;
+
+public class Student {
+	
+	private int StudentId;
+	
+	private String studentName;
+	
+	private int marks1;
+	private int marks2;
+	private int marks3;
+	
+	
+	
+	public Student(int studentId, String studentName, int marks1, int marks2, int marks3) {
+		StudentId = studentId;
+		this.studentName = studentName;
+		this.marks1 = marks1;
+		this.marks2 = marks2;
+		this.marks3 = marks3;
+	}
+	
+	
+	public int total(int marks1, int marks2, int marks3) {
+		int total = marks1+marks2+marks3;
+		return total;
+	}
+	
+	public int calcAverage(int marks1 , int marks2 , int marks3) {
+		int average = total(marks1, marks2, marks3)/3;
+		return average;
+		
+	}
+	 
+	public int getStudentId() {
+		return StudentId;
+	}
+	public void setStudentId(int studentId) {
+		StudentId = studentId;
+	}
+	public String getStudentName() {
+		return studentName;
+	}
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+	public int getMarks1() {
+		return marks1;
+	}
+	public void setMarks1(int marks1) {
+		this.marks1 = marks1;
+	}
+	public int getMarks2() {
+		return marks2;
+	}
+	public void setMarks2(int marks2) {
+		this.marks2 = marks2;
+	}
+	public int getMarks3() {
+		return marks3;
+	}
+	public void setMarks3(int marks3) {
+		this.marks3 = marks3;
+	}
+	
+	
+
+}

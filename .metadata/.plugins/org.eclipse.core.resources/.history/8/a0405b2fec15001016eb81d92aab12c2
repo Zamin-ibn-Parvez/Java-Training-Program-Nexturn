@@ -1,0 +1,31 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+     http://www.springframework.org/schema/context
+     http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+     
+     <bean id= "emp" class = "core.Employee">
+     
+      <property name="code" value="123"></property>
+     <property name= "empname" value="Nexturn"></property> 
+     
+    <constructor-arg name="code" value="456"> </constructor-arg> 
+     <constructor-arg name="empname"  value="Nicmar"></constructor-arg> 
+     
+      </bean>
+      
+      <bean id="student" class ="core.Student">
+      
+     <property name="studentId" value="123"></property>
+     <property name= "studentName" value="Nexturn"></property> 
+     <property name= "marks1" value="10"></property>
+     <property name= "marks2" value="20"></property>
+     <property name= "marks3" value="30"></property>
+
+      
+      </bean>
+     
+        
+</beans>

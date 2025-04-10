@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="TestArithematic.testMultiply" project="JUNIT" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="Testing.TestArithematic" time="0.04" displayname="TestArithematic" uniqueid="[engine:junit-jupiter]/[class:Testing.TestArithematic]">
-    <testcase name="testMultiply" classname="Testing.TestArithematic" time="0.04" displayname="testMultiply()" uniqueid="[engine:junit-jupiter]/[class:Testing.TestArithematic]/[method:testMultiply()]"/>
-  </testsuite>
-</testrun>

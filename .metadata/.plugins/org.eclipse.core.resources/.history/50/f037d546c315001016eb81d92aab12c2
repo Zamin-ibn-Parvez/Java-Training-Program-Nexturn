@@ -1,0 +1,14 @@
+package com.nexturn.employee.testing;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestEmployyDao {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

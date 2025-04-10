@@ -43,11 +43,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="ManyToManyMavenProject"/>
 			<item value="sample"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="ManyToMany"/>
 			<item value="nexturn-jpa-example"/>
 		</list>
 		<list key="projectNameTemplate">

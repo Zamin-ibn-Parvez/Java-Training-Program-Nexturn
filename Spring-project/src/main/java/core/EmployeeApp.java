@@ -1,0 +1,20 @@
+package core;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class EmployeeApp {
+	
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+		Employee employee = context.getBean("emp" , Employee.class);
+		Employee empl2 = context.getBean("emp" , Employee.class);
+		employee.setCode(123);
+		employee.setEmpname("Nexturn");
+		System.out.println(employee.getCode() + " "+ employee.getEmpname());
+		System.out.println(empl2.getCode() + " "+ empl2.getEmpname());
+		
+		System.out.println(employee.getAddress().getCityName() + " " + employee.getAddress().getStreetName());
+	}
+
+}
