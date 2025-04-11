@@ -1,0 +1,13 @@
+package Annotations;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Mrf implements Wheels{
+
+	@Override
+	public void rotate() {
+		System.out.println("Mrf tyres are rotating.....");
+	}
+
+}

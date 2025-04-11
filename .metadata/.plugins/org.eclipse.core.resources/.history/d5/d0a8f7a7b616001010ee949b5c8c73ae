@@ -1,0 +1,33 @@
+package jBasedConfiguration;
+
+
+
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+
+
+@Configuration
+@PropertySource("sample.properties")
+public class JavaBasedConfiguration {
+	
+	
+	@Value("${std.id}")
+	private int regNo;
+	@Value("${std.stdname}")
+	private String stdname;
+	
+	@Bean
+	public Student getStudent() {
+		Student std = new Student();
+		std.setRegNo(1001);
+		std.setStudentName("Nexturn");
+		
+		return std;
+		
+	}
+	
+
+}

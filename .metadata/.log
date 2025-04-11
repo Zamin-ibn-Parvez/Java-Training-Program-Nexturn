@@ -7092,3 +7092,1309 @@ java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access 
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:40:04.830
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:40:04.838
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 11:40:04.877
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:40:20.500
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:40:20.506
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 11:40:20.525
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:40:36.381
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:40:36.391
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 11:40:36.433
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:41:18.857
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:41:18.864
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 11:41:18.883
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:41:29.376
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:41:29.389
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 11:41:29.425
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:42:08.652
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:42:08.661
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 11:42:08.687
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:42:13.413
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:42:13.421
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 11:42:13.444
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:42:41.700
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:42:41.711
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 11:42:41.743
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:43:05.355
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:43:05.361
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 11:43:05.383
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:43:16.881
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:43:16.889
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 11:43:16.909
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:44:29.710
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:44:29.717
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 11:44:29.737
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:44:38.762
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:44:38.772
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 11:44:38.802
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:46:32.751
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:46:32.759
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 11:46:32.781
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:46:35.026
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:46:35.032
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 11:46:35.055
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:47:03.281
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:47:03.291
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 11:47:03.320
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:47:32.184
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 11:47:32.192
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 11:47:32.211
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 14:21:12.571
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:21:28.449
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:21:28.454
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 14:21:28.465
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:24:51.111
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:24:51.116
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 14:24:51.129
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:25:35.878
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:25:35.880
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 14:25:35.887
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:26:42.791
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:26:42.794
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 14:26:42.804
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:26:54.649
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:26:54.653
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 14:26:54.664
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:28:57.219
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:28:57.221
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 14:28:57.229
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:29:23.234
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:29:23.237
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 14:29:23.379
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2025-04-11 14:49:08.996
+!MESSAGE Invalid path: '/sampleWebApplication/sample.properties'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/sampleWebApplication/sample.properties'
+	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1429)
+	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1419)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.isCactusJunitTest(WebDeployableArtifactUtil.java:259)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getModuleObject(WebDeployableArtifactUtil.java:166)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactAdapterFactory.getModuleArtifact(WebDeployableArtifactAdapterFactory.java:33)
+	at org.eclipse.wst.server.core.model.ModuleArtifactAdapterDelegate.getModuleArtifacts(ModuleArtifactAdapterDelegate.java:48)
+	at org.eclipse.wst.server.core.internal.ModuleArtifactAdapter.getModuleArtifacts(ModuleArtifactAdapter.java:185)
+	at org.eclipse.wst.server.core.internal.ServerPlugin.getModuleArtifacts(ServerPlugin.java:1346)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.selectionChanged(RunOnServerActionDelegate.java:849)
+	at org.eclipse.wst.server.ui.internal.ServerLaunchShortcut.launch(ServerLaunchShortcut.java:42)
+	at org.eclipse.wst.server.ui.internal.ServerLaunchShortcut.launch(ServerLaunchShortcut.java:58)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:412)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:262)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:188)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:100)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.runInternal(AbstractLaunchToolbarAction.java:90)
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:420)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:229)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:218)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:454)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2025-04-11 14:49:08.996
+!MESSAGE Invalid path: '/sampleWebApplication/sample.properties'
+
+!ENTRY org.eclipse.jst.jee.ui 4 0 2025-04-11 14:49:09.003
+!MESSAGE Invalid path: '/sampleWebApplication/sample.properties'
+!STACK 1
+Java Model Exception: Error in Java Model (code 979): Invalid path: '/sampleWebApplication/sample.properties'
+	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1429)
+	at org.eclipse.jdt.internal.core.JavaProject.findElement(JavaProject.java:1419)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getClassNameForType(WebDeployableArtifactUtil.java:319)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.isCactusJunitTest(WebDeployableArtifactUtil.java:259)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactUtil.getModuleObject(WebDeployableArtifactUtil.java:166)
+	at org.eclipse.jst.jee.ui.internal.deployables.WebDeployableArtifactAdapterFactory.getModuleArtifact(WebDeployableArtifactAdapterFactory.java:33)
+	at org.eclipse.wst.server.core.model.ModuleArtifactAdapterDelegate.getModuleArtifacts(ModuleArtifactAdapterDelegate.java:48)
+	at org.eclipse.wst.server.core.internal.ModuleArtifactAdapter.getModuleArtifacts(ModuleArtifactAdapter.java:185)
+	at org.eclipse.wst.server.core.internal.ServerPlugin.getModuleArtifacts(ServerPlugin.java:1346)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:186)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:766)
+	at org.eclipse.wst.server.ui.internal.ServerLaunchShortcut.launch(ServerLaunchShortcut.java:43)
+	at org.eclipse.wst.server.ui.internal.ServerLaunchShortcut.launch(ServerLaunchShortcut.java:58)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:412)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:262)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:188)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:100)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.runInternal(AbstractLaunchToolbarAction.java:90)
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:420)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:229)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:218)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:454)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+!SUBENTRY 1 org.eclipse.jdt.core 4 979 2025-04-11 14:49:09.003
+!MESSAGE Invalid path: '/sampleWebApplication/sample.properties'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:49:52.725
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:49:52.729
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 14:49:52.738
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:51:18.854
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:51:18.859
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 14:51:18.867
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:53:09.294
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:53:09.297
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 14:53:09.307
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:53:40.761
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-11 14:53:40.764
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-11 14:53:40.772
+!MESSAGE Ignoring /Spring-project/target failed
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\.gitignore (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:388)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1274)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$RootIgnoreNode.load(WorkingTreeIterator.java:1324)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator$PerDirectoryIgnoreNode.load(WorkingTreeIterator.java:1269)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getIgnoreNode(WorkingTreeIterator.java:737)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1589)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isDirectoryIgnored(WorkingTreeIterator.java:1567)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:719)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:679)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isEntryIgnored(WorkingTreeIterator.java:666)
+	at org.eclipse.jgit.treewalk.FileTreeIterator.createSubtreeIterator(FileTreeIterator.java:181)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:559)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:1371)
+	at org.eclipse.egit.core.RepositoryUtil.canBeAutoIgnored(RepositoryUtil.java:848)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:460)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

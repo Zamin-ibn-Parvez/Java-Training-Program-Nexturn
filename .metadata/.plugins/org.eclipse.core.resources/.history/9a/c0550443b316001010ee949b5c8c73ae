@@ -1,0 +1,24 @@
+package javaBasedConfiguration;
+
+
+import java.nio.channels.NonWritableChannelException;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+
+@Configuration
+public class JavaBasedConfiguration {
+	
+	@Bean
+	public Student getStudent() {
+		Student std = new Student();
+		std.setRegNo(1001);
+		std.setStudentName("Nexturn");
+		
+		return std;
+		
+	}
+	
+
+}

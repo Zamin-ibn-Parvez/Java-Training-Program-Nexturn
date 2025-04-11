@@ -1,0 +1,14 @@
+package jBasedConfiguration;
+
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class StudentMain {
+	
+	public static void main(String[] args) {
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(JavaBasedConfiguration.class);
+		Student std = context.getBean("getStudent",Student.class);
+		System.out.println(std.getRegNo()+" "+ std.getStudentName());
+	}
+
+}
