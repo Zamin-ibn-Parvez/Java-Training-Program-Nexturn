@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
-    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
-    <fullyQualifiedTypeName name="javax.persistence.Table"/>
-    <fullyQualifiedTypeName name="java.lang.invoke.StringConcatFactory"/>
-    <fullyQualifiedTypeName name="javax.transaction.Transaction"/>
-    <fullyQualifiedTypeName name="sample.StudentApplication"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
-    <fullyQualifiedTypeName name="javax.management.Query"/>
-    <fullyQualifiedTypeName name="com.mysql.cj.Query"/>
-    <fullyQualifiedTypeName name="java.net.spi.InetAddressResolver"/>
-    <fullyQualifiedTypeName name="sample.Customer"/>
-    <fullyQualifiedTypeName name="org.hibernate.transaction.TransactionManagerLookup"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
     <fullyQualifiedTypeName name="org.hibernate.event.internal.DefaultPersistOnFlushEventListener"/>
@@ -47,7 +35,6 @@
     <fullyQualifiedTypeName name="javax.persistence.JoinTable"/>
     <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="many2many.Bank"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.io.Serial"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="many2many.Customer"/>
@@ -60,4 +47,17 @@
     <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterAll"/>
+    <fullyQualifiedTypeName name="com.nexturn.employee.dao.EmployeeDaoImpl"/>
+    <fullyQualifiedTypeName name="com.nexturn.employee.dao.EmployeeDao"/>
+    <fullyQualifiedTypeName name="com.nexturn.employee.beans.Employee"/>
+    <fullyQualifiedTypeName name="java.lang.Iterable"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContextInitializer"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="core.Student"/>
+    <fullyQualifiedTypeName name="core.Employee"/>
+    <fullyQualifiedTypeName name="java.security.KeyStore.PrivateKeyEntry"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="core.Address"/>
 </qualifiedTypeNameHistroy>

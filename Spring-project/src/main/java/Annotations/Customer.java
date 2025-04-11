@@ -1,0 +1,40 @@
+package Annotations;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component (value = "cust")
+public class Customer {
+	@Value("12345")
+	private int code;
+	@Value("Nicmar")
+	private String custname;
+	
+	@Autowired
+	private Commision commision;
+	
+	public int getCode() {
+		return code;
+	}
+	public void setCode(int code) {
+		this.code = code;
+	}
+	
+	public String getCustname() {
+		return custname;
+	}
+	
+	public void setCustname(String custname) {
+		this.custname = custname;
+	}
+	
+	public void setCommision(Commision commision) {
+		this.commision = commision;
+	}
+	
+	public Commision getCommision() {
+		return commision;
+	}
+
+}
